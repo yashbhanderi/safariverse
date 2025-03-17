@@ -13,18 +13,22 @@ async function Reservation({ camp }) {
   const session = await auth();
 
   return (
-    <div className="grid grid-cols-2 border border-primary-800 min-h-[400px]">
-      <DateSelector
-        settings={settings}
-        reservedDates={reservedDates}
-        camp={camp}
-      />
+    <div className="grid grid-cols-1 lg:grid-cols-2 border border-primary-800 min-h-[400px]">
+      <div className="order-1">
+        <DateSelector
+          settings={settings}
+          reservedDates={reservedDates}
+          camp={camp}
+        />
+      </div>
 
-      {session?.user ? (
-        <ReservationForm camp={camp} user={session.user} />
-      ) : (
-        <LoginMessage />
-      )}
+      <div className="order-2">
+        {session?.user ? (
+          <ReservationForm camp={camp} user={session.user} />
+        ) : (
+          <LoginMessage />
+        )}
+      </div>
     </div>
   );
 }
