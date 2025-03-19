@@ -12,27 +12,28 @@ export default function Page() {
     <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
       <div className="col-span-3">
         <h1 className="text-4xl mb-10 text-accent-400 font-medium">
-          Welcome to The Wild Oasis
+          Welcome to SafariVerse
         </h1>
 
         <div className="space-y-8">
           <p>
-            Where nature&apos;s beauty and comfortable living blend seamlessly.
-            Hidden away in the heart of the Italian Dolomites, this is your
-            paradise away from home. But it&apos;s not just about the luxury
-            camps. It&apos;s about the experience of reconnecting with nature
-            and enjoying simple pleasures with family.
+            Where untamed wilderness meets sustainable adventure. Hidden deep
+            within nature&apos;s embrace, SafariVerse offers an immersive escape
+            into the heart of the wild. But it&apos;s not just about the safari
+            lodges—it&apos;s about the experience of reconnecting with nature,
+            witnessing majestic wildlife, and embracing the rhythms of the
+            natural world.
           </p>
           <p>
-            Our 8 luxury camps provide a cozy base, but the real freedom and
-            peace you&apos;ll find in the surrounding mountains. Wander through
-            lush forests, breathe in the fresh air, and watch the stars twinkle
-            above from the warmth of a campfire or your hot tub.
+            Our eco-friendly lodges provide a comfortable retreat, but the real
+            magic lies beyond their walls. Embark on guided safaris through
+            breathtaking landscapes, hear the distant roar of a lion at dusk,
+            and gaze at a sky ablaze with stars from the warmth of a bonfire.
           </p>
           <p>
-            This is where memorable moments are made, surrounded by
-            nature&apos;s splendor. It&apos;s a place to slow down, relax, and
-            feel the joy of being together in a beautiful setting.
+            This is where unforgettable moments are made—surrounded by the
+            wonders of nature, where every sunrise brings new adventures and
+            every nightfall tells a story of the wild.
           </p>
         </div>
       </div>
@@ -40,7 +41,7 @@ export default function Page() {
       <div className="col-span-2">
         <Image
           src={image1}
-          alt="Family sitting around a fire pit in front of camp"
+          alt="safari"
           placeholder="blur"
           quality={80}
         />
@@ -51,29 +52,30 @@ export default function Page() {
           src="/about-2.jpg"
           fill
           className="object-cover"
-          alt="Family that manages The Wild Oasis"
+          alt="Family that manages SafariVerse"
         />
       </div>
 
       <div className="col-span-3">
         <h1 className="text-4xl mb-10 text-accent-400 font-medium">
-          Managed by our family since 1962
+          A Legacy of Conservation & Hospitality since 2002
         </h1>
 
         <div className="space-y-8">
           <p>
-            Since 1962, The Wild Oasis has been a cherished family-run retreat.
-            Started by our grandparents, this haven has been nurtured with love
-            and care, passing down through our family as a testament to our
-            dedication to creating a warm, welcoming environment.
+            Since its founding, SafariVerse has been more than just a
+            destination—it&apos;s been a family-driven mission to preserve and
+            share the beauty of the wild. What began as a humble safari retreat
+            has evolved into a sanctuary dedicated to responsible tourism and
+            conservation.
           </p>
           <p>
-            Over the years, we&apos;ve maintained the essence of The Wild Oasis,
-            blending the timeless beauty of the mountains with the personal
-            touch only a family business can offer. Here, you&apos;re not just a
-            guest; you&apos;re part of our extended family. So join us at The
-            Wild Oasis soon, where tradition meets tranquility, and every visit
-            is like coming home.
+            Through generations, we have upheld our commitment to protecting
+            wildlife while offering travelers an authentic and enriching
+            experience. Here, you&apos;re not just a visitor; you&apos;re part of a
+            journey to explore, respect, and safeguard the natural world. Join
+            us at SafariVerse, where adventure, sustainability, and heartfelt
+            hospitality come together for an experience like no other.
           </p>
 
           <div>

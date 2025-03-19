@@ -38,3 +38,8 @@
   --rdp-background-color: theme("colors.accent.600") !important;
   margin: 0 !important;
 }
+
+.rdp-caption option {
+  background-color: #1a1a1a; /* Background for dropdown options */
+  color: white; /* Text color */
+}

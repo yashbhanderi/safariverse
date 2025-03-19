@@ -1,7 +1,7 @@
 import { auth } from "../_lib/auth";
 
 export const metadata = {
-  title: "Guest area",
+  title: "Safari Dashboard",
 };
 
 export default async function Page() {
